@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Yuri Neves · Firmware &amp; software · Marine Telematics</title>
+  <desc id="desc">Sinal diferencial CAN_H e CAN_L de um frame CAN 2.0A com ID 0x2A5 e dados "hello", com os campos decodificados embaixo.</desc>
+  <defs>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0 H0 V26" fill="none" stroke="#E1E8F2" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+  <rect width="1200" height="300" fill="#F6F8FC"/>
+  <rect x="0" y="150" width="1200" height="150" fill="url(#grid)"/>
+  <rect x="0" y="0" width="6" height="300" fill="#1F6FD6"/>
+
+  <g>
+    <circle cx="52" cy="48" r="4" fill="#16A34A"/>
+    <text x="64" y="53" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1F6FD6">~/yuri-ncs $ candump can0</text>
+    <text x="48" y="112" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.6" fill="#0B1A33">Yuri Neves</text>
+    <text x="48" y="144" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#475A78">Firmware &amp; software · <tspan font-weight="600" fill="#0B1A33">Marine Telematics</tspan></text>
+  </g>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">
+    <text x="1152" y="53" font-size="13" letter-spacing="0.26" fill="#1E3358">ESP32 · CAN · RS485 · BLE · 4G</text>
+    <text x="1152" y="75" font-size="11" fill="#64748B">CAN 2.0A · 500 kbit/s · 2 µs/bit</text>
+  </g>
+
+  <path d="M30 204 H1170" stroke="#B8C6DB" stroke-width="1" stroke-dasharray="4 6"/>
+  <path d="M30 196 H54 V176 H80 V196 H93 V176 H106 V196 H119 V176 H132 V196 H145 V176 H171 V196 H184 V176 H197 V196 H210 V176 H262 V196 H275 V176 H288 V196 H301 V176 H314 V196 H340 V176 H353 V196 H366 V176 H418 V196 H444 V176 H470 V196 H483 V176 H496 V196 H509 V176 H522 V196 H548 V176 H561 V196 H587 V176 H626 V196 H652 V176 H665 V196 H691 V176 H730 V196 H756 V176 H769 V196 H821 V176 H834 V196 H847 V176 H860 V196 H873 V176 H886 V196 H899 V176 H925 V196 H951 V176 H964 V196 H990 V176 H1003 V196 H1029 V176 H1042 V196 H1170" fill="none" stroke="#1F6FD6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M30 212 H54 V232 H80 V212 H93 V232 H106 V212 H119 V232 H132 V212 H145 V232 H171 V212 H184 V232 H197 V212 H210 V232 H262 V212 H275 V232 H288 V212 H301 V232 H314 V212 H340 V232 H353 V212 H366 V232 H418 V212 H444 V232 H470 V212 H483 V232 H496 V212 H509 V232 H522 V212 H548 V232 H561 V212 H587 V232 H626 V212 H652 V232 H665 V212 H691 V232 H730 V212 H756 V232 H769 V212 H821 V232 H834 V212 H847 V232 H860 V212 H873 V232 H886 V212 H899 V232 H925 V212 H951 V232 H964 V212 H990 V232 H1003 V212 H1029 V232 H1042 V212 H1170" fill="none" stroke="#60A5FA" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="end">
+    <text x="1168" y="170" fill="#1F6FD6">CAN_H</text>
+    <text x="1168" y="243" fill="#1D4ED8">CAN_L</text>
+  </g>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="500" text-anchor="middle">
+    <rect x="55" y="250" width="11" height="26" rx="4" fill="#DCE5F2"/>
+    <text x="60.5" y="267" fill="#1E3358">S</text>
+    <rect x="68" y="250" width="141" height="26" rx="4" fill="#1F6FD6"/>
+    <text x="138.5" y="267" fill="#FFFFFF">ID 0x2A5</text>
+    <rect x="211" y="250" width="37" height="26" rx="4" fill="#DCE5F2"/>
+    <text x="229.5" y="267" fill="#1E3358">CTRL</text>
+    <rect x="250" y="250" width="50" height="26" rx="4" fill="#DCE5F2"/>
+    <text x="275" y="267" fill="#1E3358">DLC 5</text>
+    <rect x="302" y="250" width="102" height="26" rx="4" fill="#0E7490"/>
+    <text x="353" y="267" fill="#FFFFFF">'h' 0x68</text>
+    <rect x="406" y="250" width="102" height="26" rx="4" fill="#0E7490"/>
+    <text x="457" y="267" fill="#FFFFFF">'e' 0x65</text>
+    <rect x="510" y="250" width="102" height="26" rx="4" fill="#0E7490"/>
+    <text x="561" y="267" fill="#FFFFFF">'l' 0x6C</text>
+    <rect x="614" y="250" width="102" height="26" rx="4" fill="#0E7490"/>
+    <text x="665" y="267" fill="#FFFFFF">'l' 0x6C</text>
+    <rect x="718" y="250" width="102" height="26" rx="4" fill="#0E7490"/>
+    <text x="769" y="267" fill="#FFFFFF">'o' 0x6F</text>
+    <rect x="822" y="250" width="193" height="26" rx="4" fill="#5B21B6"/>
+    <text x="918.5" y="267" fill="#FFFFFF">CRC 0x2A6D</text>
+    <rect x="1017" y="250" width="11" height="26" rx="4" fill="#DCE5F2"/>
+    <rect x="1030" y="250" width="11" height="26" rx="4" fill="#15803D"/>
+    <text x="1035.5" y="267" fill="#FFFFFF">A</text>
+    <rect x="1043" y="250" width="11" height="26" rx="4" fill="#DCE5F2"/>
+    <rect x="1056" y="250" width="89" height="26" rx="4" fill="#DCE5F2"/>
+    <text x="1100.5" y="267" fill="#1E3358">EOF</text>
+  </g>
+  </g>
+</svg>
