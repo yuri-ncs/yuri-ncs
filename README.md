@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Yuri Neves · Firmware & software · Marine Telematics. Frame CAN 2.0A com ID 0x2A5 e dados 'hello' decodificado." src="./assets/banner-dark.svg" width="100%">
+  <img alt="Yuri Neves · Firmware & software · Marine Telematics · propulsão, telemetria e automação marítima. Frame CAN 2.0A com ID 0x2A5 e dados 'hello' decodificado." src="./assets/banner-dark.svg" width="100%">
 </picture>
 
 <p>
@@ -9,7 +9,10 @@
   <a href="https://github.com/Marine-Telematics"><img alt="Marine Telematics no GitHub" src="https://img.shields.io/badge/%40Marine--Telematics-0B1A33?style=for-the-badge&logo=github&logoColor=8AC0FF"></a>
 </p>
 
-## `0x01` Sobre mim
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-sobre-light.svg">
+  <img alt="0x01 Sobre mim" src="./assets/h-sobre-dark.svg" width="100%">
+</picture>
 
 <details open>
 <summary><b>yuri.h</b></summary>
@@ -30,7 +33,7 @@ public:
 
     static constexpr Cargo cargo = {
         .titulo = "Firmware & Software Developer",
-        .foco   = "ECUs de propulsão e telemetria marítima",
+        .foco   = "propulsão, telemetria e automação marítima",
     };
 
     static constexpr Mcu mcus[] = {
@@ -74,68 +77,29 @@ public:
 
 </details>
 
-## `0x02` Stack
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-stack-light.svg">
+  <img alt="0x02 Stack" src="./assets/h-stack-dark.svg" width="100%">
+</picture>
 
-<table>
-  <tr>
-    <td><code>linguagens</code></td>
-    <td>
-      <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-0B1A33?style=flat-square&logo=cplusplus&logoColor=8AC0FF">
-      <img alt="C" src="https://img.shields.io/badge/C-0B1A33?style=flat-square&logo=c&logoColor=8AC0FF">
-      <img alt="Rust" src="https://img.shields.io/badge/Rust-0B1A33?style=flat-square&logo=rust&logoColor=8AC0FF">
-      <img alt="Python" src="https://img.shields.io/badge/Python-0B1A33?style=flat-square&logo=python&logoColor=8AC0FF">
-      <img alt="Dart" src="https://img.shields.io/badge/Dart-0B1A33?style=flat-square&logo=dart&logoColor=8AC0FF">
-      <img alt="C#" src="https://img.shields.io/badge/C%23-0B1A33?style=flat-square&logo=dotnet&logoColor=8AC0FF">
-    </td>
-  </tr>
-  <tr>
-    <td><code>embarcado</code></td>
-    <td>
-      <img alt="ESP-IDF" src="https://img.shields.io/badge/ESP--IDF-0B1A33?style=flat-square&logo=espressif&logoColor=8AC0FF">
-      <img alt="STM32 HAL" src="https://img.shields.io/badge/STM32%20HAL-0B1A33?style=flat-square&logo=stmicroelectronics&logoColor=8AC0FF">
-      <img alt="Embassy" src="https://img.shields.io/badge/Embassy-0B1A33?style=flat-square&logo=rust&logoColor=8AC0FF">
-      <img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-0B1A33?style=flat-square">
-      <img alt="LVGL" src="https://img.shields.io/badge/LVGL-0B1A33?style=flat-square">
-    </td>
-  </tr>
-  <tr>
-    <td><code>aplicações</code></td>
-    <td>
-      <img alt="Flutter" src="https://img.shields.io/badge/Flutter-0B1A33?style=flat-square&logo=flutter&logoColor=8AC0FF">
-      <img alt=".NET Avalonia" src="https://img.shields.io/badge/.NET%20%C2%B7%20Avalonia-0B1A33?style=flat-square&logo=dotnet&logoColor=8AC0FF">
-      <img alt="Dear ImGui" src="https://img.shields.io/badge/Dear%20ImGui-0B1A33?style=flat-square">
-      <img alt="Electron" src="https://img.shields.io/badge/Electron-0B1A33?style=flat-square&logo=electron&logoColor=8AC0FF">
-    </td>
-  </tr>
-  <tr>
-    <td><code>ferramentas</code></td>
-    <td>
-      <img alt="BUSMASTER" src="https://img.shields.io/badge/BUSMASTER-0B1A33?style=flat-square">
-      <img alt="J-Link" src="https://img.shields.io/badge/J--Link-0B1A33?style=flat-square">
-      <img alt="Kvaser, PEAK, SocketCAN" src="https://img.shields.io/badge/Kvaser%20%C2%B7%20PEAK%20%C2%B7%20SocketCAN-0B1A33?style=flat-square">
-      <img alt="KiCad" src="https://img.shields.io/badge/KiCad-0B1A33?style=flat-square&logo=kicad&logoColor=8AC0FF">
-      <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-0B1A33?style=flat-square&logo=claude&logoColor=8AC0FF">
-    </td>
-  </tr>
-  <tr>
-    <td><code>qualidade</code></td>
-    <td>
-      <img alt="gtest" src="https://img.shields.io/badge/gtest-0B1A33?style=flat-square&logo=google&logoColor=8AC0FF">
-      <img alt="pytest" src="https://img.shields.io/badge/pytest-0B1A33?style=flat-square&logo=pytest&logoColor=8AC0FF">
-      <img alt="HIL" src="https://img.shields.io/badge/HIL-0B1A33?style=flat-square">
-      <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-0B1A33?style=flat-square&logo=githubactions&logoColor=8AC0FF">
-      <img alt="Docker" src="https://img.shields.io/badge/Docker-0B1A33?style=flat-square&logo=docker&logoColor=8AC0FF">
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Stack. Linguagens: C++, C, Rust, Python, Dart, C#. Embarcado: ESP-IDF, STM32 HAL, Embassy, FreeRTOS, LVGL. Aplicações: Flutter, .NET Avalonia, Dear ImGui, Electron. Ferramentas: BUSMASTER, J-Link, Kvaser, PEAK, SocketCAN, KiCad, Claude Code. Qualidade: gtest, pytest, HIL, GitHub Actions, Docker." src="./assets/stack-dark.svg" width="100%">
+</picture>
 
-## `0x03` Atividade
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-atividade-light.svg">
+  <img alt="0x03 Atividade" src="./assets/h-atividade-dark.svg" width="100%">
+</picture>
 
-<p>
-  <img height="165" alt="Estatísticas do GitHub de yuri-ncs" src="https://github-readme-stats.vercel.app/api?username=yuri-ncs&show_icons=true&hide_border=true&border_radius=12&bg_color=0B1A33&title_color=8AC0FF&text_color=CFDAEA&icon_color=1F6FD6&locale=pt-br">
-  <img height="165" alt="Linguagens mais usadas por yuri-ncs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuri-ncs&layout=compact&hide_border=true&border_radius=12&bg_color=0B1A33&title_color=8AC0FF&text_color=CFDAEA&locale=pt-br">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=yuri-ncs&locale=pt_BR&hide_border=true&border_radius=16&card_width=1000&card_height=200&disable_animations=true&background=F6F8FC&stroke=DCE5F2&ring=1F6FD6&fire=1F6FD6&currStreakNum=0B1A33&sideNums=0B1A33&currStreakLabel=1F6FD6&sideLabels=475A78&dates=64748B">
+    <img alt="Contribuições e sequência de dias com commits de yuri-ncs" src="https://streak-stats.demolab.com/?user=yuri-ncs&locale=pt_BR&hide_border=true&border_radius=16&card_width=1000&card_height=200&disable_animations=true&background=081226&stroke=1E3358&ring=1F6FD6&fire=8AC0FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=8AC0FF&sideLabels=B4C3D9&dates=5C7399" width="100%">
+  </picture>
 </p>
 
----
-
-<sub><code>~/yuri-ncs $ exit</code> &nbsp;·&nbsp; <b>ACK</b> · Valeu pela visita</sub>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
+  <img alt="~/yuri-ncs $ exit · ACK · valeu pela visita" src="./assets/footer-dark.svg" width="100%">
+</picture>

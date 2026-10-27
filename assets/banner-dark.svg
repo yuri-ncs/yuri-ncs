@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Yuri Neves · Firmware &amp; software · Marine Telematics</title>
+  <title id="title">Yuri Neves · Firmware &amp; software · Marine Telematics · propulsão, telemetria e automação marítima</title>
   <desc id="desc">Sinal diferencial CAN_H e CAN_L de um frame CAN 2.0A com ID 0x2A5 e dados "hello", com os campos decodificados embaixo.</desc>
   <defs>
     <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
@@ -13,15 +13,16 @@
   <rect x="0" y="0" width="6" height="300" fill="#1F6FD6"/>
 
   <g>
-    <circle cx="52" cy="48" r="4" fill="#4ADE80"/>
-    <text x="64" y="53" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8AC0FF">~/yuri-ncs $ candump can0</text>
-    <text x="48" y="112" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.6" fill="#FFFFFF">Yuri Neves</text>
-    <text x="48" y="144" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#B4C3D9">Firmware &amp; software · <tspan font-weight="600" fill="#FFFFFF">Marine Telematics</tspan></text>
+    <circle cx="52" cy="40" r="4" fill="#4ADE80"/>
+    <text x="64" y="45" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8AC0FF">~/yuri-ncs $ candump can0</text>
+    <text x="48" y="102" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.6" fill="#FFFFFF">Yuri Neves</text>
+    <text x="48" y="134" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#B4C3D9">Firmware &amp; software · <tspan font-weight="600" fill="#FFFFFF">Marine Telematics</tspan></text>
+    <text x="48" y="164" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#8AC0FF">propulsão · telemetria · automação marítima</text>
   </g>
 
   <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" text-anchor="end">
-    <text x="1152" y="53" font-size="13" letter-spacing="0.26" fill="#CFE0F7">ESP32 · CAN · RS485 · BLE · 4G</text>
-    <text x="1152" y="75" font-size="11" fill="#5C7399">CAN 2.0A · 500 kbit/s · 2 µs/bit</text>
+    <text x="1152" y="45" font-size="13" letter-spacing="0.26" fill="#CFE0F7">ESP32 · CAN · RS485 · BLE · 4G</text>
+    <text x="1152" y="67" font-size="11" fill="#5C7399">CAN 2.0A · 500 kbit/s · 2 µs/bit</text>
   </g>
 
   <path d="M30 204 H1170" stroke="#2A4470" stroke-width="1" stroke-dasharray="4 6"/>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Stack: linguagens: C++, C, Rust, Python, Dart, C#; embarcado: ESP-IDF, STM32 HAL, Embassy, FreeRTOS, LVGL; aplicações: Flutter, .NET · Avalonia, Dear ImGui, Electron; ferramentas: BUSMASTER, J-Link, Kvaser · PEAK · SocketCAN, KiCad, Claude Code; qualidade: gtest, pytest, HIL, GitHub Actions, Docker">
+<title>Stack: linguagens: C++, C, Rust, Python, Dart, C#; embarcado: ESP-IDF, STM32 HAL, Embassy, FreeRTOS, LVGL; aplicações: Flutter, .NET · Avalonia, Dear ImGui, Electron; ferramentas: BUSMASTER, J-Link, Kvaser · PEAK · SocketCAN, KiCad, Claude Code; qualidade: gtest, pytest, HIL, GitHub Actions, Docker</title>
+<clipPath id="c"><rect width="1200" height="350" rx="16"/></clipPath>
+<g clip-path="url(#c)">
+<rect width="1200" height="350" fill="#F6F8FC"/>
+<rect width="6" height="350" fill="#1F6FD6"/>
+<text x="48" y="48" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#1D4ED8">~/yuri-ncs $ cat stack.toml</text>
+<text x="48" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#64748B">linguagens =</text>
+<rect x="250" y="76" width="57" height="34" rx="6" fill="#1F6FD6"/>
+<text x="278" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">C++</text>
+<rect x="317" y="76" width="38" height="34" rx="6" fill="#1F6FD6"/>
+<text x="336" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">C</text>
+<rect x="364" y="76" width="66" height="34" rx="6" fill="#1F6FD6"/>
+<text x="398" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">Rust</text>
+<rect x="441" y="76" width="86" height="34" rx="6" fill="#1F6FD6"/>
+<text x="484" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">Python</text>
+<rect x="536" y="76" width="66" height="34" rx="6" fill="#1F6FD6"/>
+<text x="570" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">Dart</text>
+<rect x="613" y="76" width="47" height="34" rx="6" fill="#1F6FD6"/>
+<text x="636" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">C#</text>
+<text x="48" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#64748B">embarcado =</text>
+<rect x="250" y="126" width="95" height="34" rx="6" fill="#0E7490"/>
+<text x="298" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">ESP-IDF</text>
+<rect x="355" y="126" width="114" height="34" rx="6" fill="#0E7490"/>
+<text x="412" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">STM32 HAL</text>
+<rect x="480" y="126" width="95" height="34" rx="6" fill="#0E7490"/>
+<text x="527" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">Embassy</text>
+<rect x="585" y="126" width="105" height="34" rx="6" fill="#0E7490"/>
+<text x="637" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">FreeRTOS</text>
+<rect x="700" y="126" width="66" height="34" rx="6" fill="#0E7490"/>
+<text x="733" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">LVGL</text>
+<text x="48" y="199" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#64748B">aplicações =</text>
+<rect x="250" y="176" width="95" height="34" rx="6" fill="#DCE5F2"/>
+<text x="298" y="199" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#1E3358" text-anchor="middle">Flutter</text>
+<rect x="355" y="176" width="172" height="34" rx="6" fill="#DCE5F2"/>
+<text x="441" y="199" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#1E3358" text-anchor="middle">.NET · Avalonia</text>
+<rect x="537" y="176" width="124" height="34" rx="6" fill="#DCE5F2"/>
+<text x="599" y="199" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#1E3358" text-anchor="middle">Dear ImGui</text>
+<rect x="671" y="176" width="105" height="34" rx="6" fill="#DCE5F2"/>
+<text x="724" y="199" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#1E3358" text-anchor="middle">Electron</text>
+<text x="48" y="249" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#64748B">ferramentas =</text>
+<rect x="250" y="226" width="114" height="34" rx="6" fill="#5B21B6"/>
+<text x="307" y="249" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">BUSMASTER</text>
+<rect x="374" y="226" width="86" height="34" rx="6" fill="#5B21B6"/>
+<text x="417" y="249" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">J-Link</text>
+<rect x="470" y="226" width="268" height="34" rx="6" fill="#5B21B6"/>
+<text x="604" y="249" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">Kvaser · PEAK · SocketCAN</text>
+<rect x="748" y="226" width="76" height="34" rx="6" fill="#5B21B6"/>
+<text x="786" y="249" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">KiCad</text>
+<rect x="834" y="226" width="134" height="34" rx="6" fill="#5B21B6"/>
+<text x="901" y="249" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">Claude Code</text>
+<text x="48" y="299" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#64748B">qualidade =</text>
+<rect x="250" y="276" width="76" height="34" rx="6" fill="#15803D"/>
+<text x="288" y="299" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">gtest</text>
+<rect x="336" y="276" width="86" height="34" rx="6" fill="#15803D"/>
+<text x="379" y="299" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">pytest</text>
+<rect x="432" y="276" width="57" height="34" rx="6" fill="#15803D"/>
+<text x="460" y="299" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">HIL</text>
+<rect x="498" y="276" width="162" height="34" rx="6" fill="#15803D"/>
+<text x="580" y="299" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">GitHub Actions</text>
+<rect x="671" y="276" width="86" height="34" rx="6" fill="#15803D"/>
+<text x="714" y="299" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#FFFFFF" text-anchor="middle">Docker</text>
+</g>
+</svg>

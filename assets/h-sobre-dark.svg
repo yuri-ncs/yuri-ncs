@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="0x01 Sobre mim">
+<title>0x01 Sobre mim</title>
+<rect x="0" y="22" width="72" height="30" rx="6" fill="#1F6FD6"/>
+<text x="36" y="43" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">0x01</text>
+<text x="92" y="47" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.6" fill="#F0F6FC">Sobre mim</text>
+<path d="M272 36 H1040" stroke="#2A4470" stroke-width="1.5" stroke-dasharray="4 6"/>
+<path d="M1048 36 H1068 V22 H1086 V36 H1100 V22 H1132 V36 H1150 V22 H1164 V36 H1200" fill="none" stroke="#1F6FD6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
